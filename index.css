@@ -1,0 +1,58 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+head {
+    display: block;
+}
+
+
+p, 
+li {
+    font-size: 18px;
+}
+
+li {
+    font-style: calibri;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+#marist {
+    text-shadow: 2px 2px 0 red, 4px 4px 0 white; /* Add a yellow-orange shadow */
+    font-size: 2em; /* Increase the font size for the bubble effect */
+    color: black; /* Change the text color to white for better visibility */
+}
+
+#mediaradar {
+    text-shadow: 2px 2px 0 navy, 4px 4px 0 white;
+    font-size: 2em;
+    color: orange;
+}
+
+#yext {
+    text-shadow: 2px 2px 0 white, 3px 3px 0 black;
+    font-size: 2em;
+    color: black;
+}
+
+h2 p {
+    font-style: italic;
+}
+
+#contact {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#contact li {
+    font-weight: normal;
+}
+
+#resume-title {
+    position: sticky;
+    top: 0px;
+}
