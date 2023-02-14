@@ -1,14 +1,16 @@
-header {
-    height: auto;
-    width: auto;
-    justify-content: center;
-    text-align: center;
+body {
+    background-image: url(./Resources/assets/IMG_2712.png);
+    background-size: 10%;
 }
 
 a {
     justify-content: center;
     color: black;
     text-decoration: none;
+}
+
+.heading h1 {
+    color: white;
 }
 
 a:hover{
@@ -23,23 +25,29 @@ a:active {
     background-color: whitesmoke;
 }
 
-div.heading {
-    font-size: 18px;
+.heading {
+    display: flex;
+    top: 0px;
+    justify-content: center;
+    margin: auto;
+}
+
+#maristlogo {
+    display: inline-block;
+    justify-content: center;
+    height: auto;
+    width: 10%;
 }
 
 .navigation {
     display: flex;
     justify-content: center;
-    width: auto;
-    height: auto;
-}
-
-div.footer {
     text-align: center;
-    justify-content: center;
+    padding-top: 150px;
 }
 
 .box {
+    display: flex;
     justify-content: center;
     background-color: white;
     margin: 10px;
@@ -48,4 +56,11 @@ div.footer {
 
 .box a {
     margin: 5px;
+}
+
+ul a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
 }
