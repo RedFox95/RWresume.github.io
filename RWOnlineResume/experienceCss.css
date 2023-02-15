@@ -1,3 +1,24 @@
+li {
+    font-style: italic;
+}
+
+footer {
+    color: white;
+}
+
+#maristlogo {
+    height: auto;
+    width: 3%;
+}
+
+#maristnetworking {
+    display:none;
+}
+
+.date {
+    font-weight: bold;
+}
+
 .marist {
     text-shadow: 2px 2px 0 red, 4px 4px 0 white; /* Add a yellow-orange shadow */
     font-size: 1em; /* Increase the font size for the bubble effect */
