@@ -1,13 +1,13 @@
 $(document).ready(() => {
-    var toggleButton = document.getElementById("toggleButton");
-    var maristnetworking = document.getElementById("maristnetworking");
+
+    const toggleButton = document.getElementById("maristnetworkingtoggle");
+    const contentDiv = document.getElementById("maristnetworkingcontent");
 
     toggleButton.addEventListener("click", function() {
-    if (maristnetworking.style.display === "none") {
-        maristnetworking.style.display = "block";
-    } else {
-        maristnetworking.style.display = "none";
-    }
+        if(this.classList === "hidden") {
+            contentDiv.style.display = "flex";
+        }
     });
+
 
 })
