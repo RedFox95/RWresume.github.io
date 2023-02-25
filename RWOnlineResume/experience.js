@@ -1,13 +1,15 @@
-$(document).ready(() => {
+document.addEventListener("DOMContentLoaded", function() {
+    // Get references to the toggle button and the content element
+    const toggleButton = document.getElementsByClassName("toggle");
+    const content = document.getElementsByClassName("content");
 
-    const toggleButton = document.getElementById("maristnetworkingtoggle");
-    const contentDiv = document.getElementById("maristnetworkingcontent");
-
+    // Add an event listener to the toggle button to detect when it is clicked
     toggleButton.addEventListener("click", function() {
-        if(this.classList === "hidden") {
-            contentDiv.style.display = "flex";
-        }
+    // Toggle the visibility of the content by changing the display property
+    if (content.style.display == "none") {
+        content.style.display = "block";
+    } else {
+        content.style.display = "none";
+    }
     });
-
-
-})
+  });

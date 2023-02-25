@@ -2,6 +2,18 @@ body, html {
     height: 100%;
 }
 
+button {
+    margin: 3px;
+    width: auto;
+}
+
+.btn-group {
+    display: flex;
+    vertical-align: middle;
+    align-items: left;
+    flex-direction: column;
+}
+
 .returnbutton {
     background-color: white;
 }
@@ -20,7 +32,7 @@ body, html {
     width: 3%;
 }
 
-.hidden {
+.content {
     display: none;
 }
 
@@ -29,11 +41,12 @@ body, html {
 }
 
 .marist {
-    text-shadow: 2px 2px 0 red, 4px 4px 0 white; /* Add a yellow-orange shadow */
-    font-size: 1em; /* Increase the font size for the bubble effect */
-    color: black; /* Change the text color to white for better visibility */
+    text-shadow: 2px 2px 0 red, 4px 4px 0 white;
+    font-size: 1em; 
+    color: black; 
 }
 
+/*
 .entecrity {
     text-shadow: 2px 2px 0 white, 3px 3px 0 black;
     font-size: 1em;
@@ -63,3 +76,4 @@ body, html {
     font-size: 1em;
     color: red;
 }
+*/
