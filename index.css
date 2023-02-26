@@ -73,11 +73,17 @@ button a:hover {
 }
 
 .footer {
-    display: flex;
+    display: flex;;
     height: 33.3%;
     align-items: center;
     justify-content: center;
     vertical-align: middle;
+    opacity: 0;
+    transition: opacity 3s;
+}
+
+.footer.visible {
+    opacity: 1;
 }
 
 .footer p {
