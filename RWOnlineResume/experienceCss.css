@@ -3,8 +3,20 @@ body, html {
 }
 
 button {
-    margin: 3px;
+    margin: 10px;
     width: auto;
+    font-size: larger;
+    font-weight: bold;
+    text-shadow: 2px 2px white;
+}
+
+button:hover {
+    box-shadow: 2px 2px black;
+    cursor: pointer;
+}
+
+li {
+    font-size: large;
 }
 
 .btn-group {
@@ -19,7 +31,7 @@ button {
 }
 
 .returnbutton:hover {
-    background-color: rgb(69, 188, 192);
+    background-color: greenyellow;
     transition-duration: .5s;
 }
 
@@ -28,52 +40,30 @@ button {
 }
 
 #maristlogo {
-    height: auto;
-    width: 3%;
+    height: 35px;
+    width: auto;
 }
 
-.content {
+#mrlogo {
+    height: 35px;
+    width: auto;
+}
+
+#mfplogo {
+    height: 35px;
+    width: auto;
+}
+
+#yextlogo {
+    height: 35px;
+    width: auto;
+}
+
+#adplogo {
+    height: 35px;
+    width: auto;
+}
+
+.hidden {
     display: none;
 }
-
-.date {
-    font-weight: bold;
-}
-
-.marist {
-    text-shadow: 2px 2px 0 red, 4px 4px 0 white;
-    font-size: 1em; 
-    color: black; 
-}
-
-/*
-.entecrity {
-    text-shadow: 2px 2px 0 white, 3px 3px 0 black;
-    font-size: 1em;
-    color: black;
-}
-
-.mediaradar {
-    text-shadow: 2px 2px 0 navy, 4px 4px 0 white;
-    font-size: 1em;
-    color: orange;
-}
-
-.yext {
-    text-shadow: 2px 2px 0 white, 3px 3px 0 black;
-    font-size: 1em;
-    color: black;
-}
-
-.myfbaprep {
-    text-shadow: 2px 2px 0 black, 4px 4px 0 white;
-    font-size: 1em;
-    color: yellow;
-}
-
-.adp {
-    text-shadow: 2px 2px 0 white, 4px 4px 0 black;
-    font-size: 1em;
-    color: red;
-}
-*/

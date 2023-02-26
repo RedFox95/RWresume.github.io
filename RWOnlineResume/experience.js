@@ -1,15 +1,14 @@
 document.addEventListener("DOMContentLoaded", function() {
-    // Get references to the toggle button and the content element
-    const toggleButton = document.getElementsByClassName("toggle");
-    const content = document.getElementsByClassName("content");
+    // get all the buttons and their corresponding content divs
+    const buttons = document.querySelectorAll('.btn-group button');
+    const contentDivs = document.querySelectorAll('.btn-group div');
 
-    // Add an event listener to the toggle button to detect when it is clicked
-    toggleButton.addEventListener("click", function() {
-    // Toggle the visibility of the content by changing the display property
-    if (content.style.display == "none") {
-        content.style.display = "block";
-    } else {
-        content.style.display = "none";
-    }
+    // add a click event listener to each button
+    buttons.forEach((button, index) => {
+    button.addEventListener('click', () => {
+        // toggle the display of the corresponding content div
+        contentDivs[index].classList.toggle('hidden');
     });
+    });
+
   });
