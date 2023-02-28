@@ -1,0 +1,28 @@
+.returnbutton {
+    color: black;
+    background-color: white;
+}
+
+.returnbutton:hover {
+    background-color: lightgreen;
+    transition-duration: 3s;
+}
+
+.dropdown {
+    margin: 100px 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutbutton {
+    display: none;
+}
+
+.dropdowncontent {
+    display: none;
+  }
+
+.show {
+    display: block;
+}
+  
