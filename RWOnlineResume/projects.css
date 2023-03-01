@@ -1,28 +1,114 @@
-.returnbutton {
-    color: black;
+body, html {
+    height: 100%;
+    background-image: url(./Resources/assets/projectbackground.jpg);
+    background-size: 150%;
+}
+
+button {
+    font-size: larger;
+    font-weight: bold;
+    text-shadow: 2px 2px white;
+    margin: 15px;
+}
+
+button:hover {
+    box-shadow: 2px 2px black;
+    cursor: pointer;
+}
+
+li {
+    font-size: large;
     background-color: white;
+    text-decoration: none;
 }
 
-.returnbutton:hover {
-    background-color: lightgreen;
-    transition-duration: 3s;
+#resume {
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
 }
 
-.dropdown {
-    margin: 100px 100px;
+#resume a {
+    color: black;
+    text-decoration: none !important;
+
+}
+
+.btn-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}  
+
+.btn-group button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 350px;
+    max-width: 50%;
+}
+
+#backbutton {
     display: flex;
     flex-direction: column;
-}
-
-.aboutbutton {
-    display: none;
-}
-
-.dropdowncontent {
-    display: none;
-  }
-
-.show {
-    display: block;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    border: none;
+    background-color: transparent;
 }
   
+#backbutton a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+    text-decoration: none !important;
+}
+
+#backbutton:hover {
+    color: black;
+    background-color: #ec7f37;
+    border: none;
+    border-radius: 25px;
+}
+
+#maristlogo {
+    height: 35px;
+    width: auto;
+}
+
+#mrlogo {
+    height: 35px;
+    width: auto;
+}
+
+#mfplogo {
+    height: 35px;
+    width: auto;
+}
+
+#yextlogo {
+    height: 35px;
+    width: auto;
+}
+
+#adplogo {
+    height: 35px;
+    width: auto;
+}
+
+#backbuttonimg {
+    height: 35px;
+    width: auto;
+}
+
+.hidden {
+    display: none;
+}

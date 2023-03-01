@@ -1,5 +1,8 @@
 body, html {
     height: 100%;
+    background-image: url(./Resources/assets/starrybackground.jpg);
+    background-size: 100%;
+    color: white;
 }
 
 button {
