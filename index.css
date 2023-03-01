@@ -2,8 +2,9 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-    background-image: url(./RWOnlineResume/Resources/assets/BarristersBall.jpeg);
+    background-image: url(./RWOnlineResume/Resources/assets/lbi.jpeg);
     background-size: 100vh;
+    background-size: 100vw;
 }
 
 .header {

@@ -1,8 +1,9 @@
 body, html {
     height: 100vh;
     width: 100vw;
-    background-image: url(./Resources/assets/projectbackground.jpg);
-    background-size: 150%;
+    background-image: url(./Resources/assets/naturephoto.jpeg);
+    background-size: 100vh;
+    background-size: 100vw;
 }
 
 button {
@@ -19,7 +20,7 @@ button:hover {
 
 li {
     font-size: large;
-    background-color: white;
+    background-color: rgb(255, 255, 255, 0.5);
     text-decoration: none;
 }
 
@@ -61,14 +62,20 @@ ul {
 .btn-group {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    justify-items: center;
     vertical-align: middle;
+    align-items: center;
     width: 100vw;
 }
 
 .btn-group button {
     display: flex;
     justify-content: left;
+    justify-items: center;
     align-items: center;
+    max-width: 350px;
+    min-width: 350px;
 }
 
 #backbutton {
