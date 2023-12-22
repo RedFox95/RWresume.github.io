@@ -144,7 +144,8 @@ ul {
     width: auto;
 }
 
-#christmasImage {
+img#christmasImage {
+    width: 58.25px;
     height: 35px;
-    width: auto;
+    margin-right: 3px;
 }
