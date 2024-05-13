@@ -6,6 +6,62 @@ footer {
     color: white;
 }
 
+<<<<<<< Updated upstream
+=======
+#resume {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#resume a {
+    color: black;
+    text-decoration: none !important;
+}
+
+.btn-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-group button {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+#backbutton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    border: none;
+    background-color: white;
+    border-radius: 25px;
+}
+  
+#backbutton a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+    text-decoration: none !important;
+}
+
+#backbutton:hover {
+    color: black;
+    background-color: #ec7f37;
+    border: none;
+    border-radius: 25px;
+}
+
+
+>>>>>>> Stashed changes
 #maristlogo {
     height: auto;
     width: 3%;
