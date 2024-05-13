@@ -19,11 +19,6 @@ button {
     align-items: left;
 }
 
-button:hover {
-    box-shadow: 2px 2px black;
-    cursor: pointer;
-}
-
 li {
     font-size: large;
 }

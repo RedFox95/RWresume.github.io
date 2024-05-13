@@ -10,5 +10,4 @@ document.addEventListener("DOMContentLoaded", function() {
         contentDivs[index].classList.toggle('hidden');
     });
     });
-
-  });
+};
