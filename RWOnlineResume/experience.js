@@ -1,13 +1,14 @@
-$(document).ready(() => {
-    var toggleButton = document.getElementById("toggleButton");
-    var maristnetworking = document.getElementById("maristnetworking");
+document.addEventListener("DOMContentLoaded", function() {
+    // get all the buttons and their corresponding content divs
+    const buttons = document.querySelectorAll('.btn-group button');
+    const contentDivs = document.querySelectorAll('.btn-group div');
 
-    toggleButton.addEventListener("click", function() {
-    if (maristnetworking.style.display === "none") {
-        maristnetworking.style.display = "block";
-    } else {
-        maristnetworking.style.display = "none";
-    }
+    // add a click event listener to each button
+    buttons.forEach((button, index) => {
+    button.addEventListener('click', () => {
+        // toggle the display of the corresponding content div
+        contentDivs[index].classList.toggle('hidden');
+    });
     });
 
-})
+  });

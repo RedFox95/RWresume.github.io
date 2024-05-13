@@ -10,12 +10,4 @@ document.addEventListener("DOMContentLoaded", function() {
         contentDivs[index].classList.toggle('hidden');
     });
     });
-
-  });
-
-  let buttons = document.getElementsByClassName('btn-group');
-  buttons.addEventListener('')
-
-  let hide = function() {
-    
-  }
+};
