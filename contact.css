@@ -1,0 +1,9 @@
+button {
+    background-color: white;
+}
+
+button a {
+    font-size: larger;
+    color: #C8102E;
+    font-weight: bolder;
+}
