@@ -1,13 +1,19 @@
 body {
-    display: flexbox;
+    background-color: rgba(88, 129, 87, 1);
+    height: 100%;
 }
 
 .navigation_bar {
-    height: 75px;
-    background-color: black;
+    height: 100px;
+    background-color: aqua;
     display: flex;
     justify-content: space-evenly;
-    width: auto;
+    position: sticky;
+    align-items: center;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 a {
@@ -16,32 +22,57 @@ a {
     font-size: larger;
 }
 
-a:hover {
-    color: red;
+p {
+    color: rgba(255, 255, 255, 1);
+    font-size: 11.9em;
 }
 
 button {
     background-color: white;
-    width: 100px;
+    width: 8em;
+    height: 2em;
+}
+
+button:hover {
+    background-color: aliceblue;
+    cursor: wait;
 }
 
 .cardContainer {
-    display: inline-flex;
+    display: grid;
+    margin: 4em 0em 0em 0em;
     height: auto;
     width: 100%;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin: 50px 0px 0px 0px;
+    justify-content: center;
 }
 
-.card1 {
-    background-color: pink;
-    height: 200px;
-    width: 25%;
+.card {
+    aspect-ratio: 5/7;
+    background-color: rgba(163, 177, 138, 1);
+    width: calc(30vmin - 20px);
+    /* adjust this value based on your design needs */
+    border-radius: 1vmin;
+    padding: 10px;
+    /* add some padding for better readability */
 }
 
-.card2 {
-    background-color: red;
-    height: 200px;
-    width: 25%;
+.showHiddenText {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.showHiddenText span {
+    color: rgba(218, 215, 205, 1);
+}
+
+.hidden {
+    display: none;
+}
+
+.showHiddenText:hover + .hidden {
+    display: block;
+    cursor: pointer;
+    font-size: 1.9em;
+    color: rgba(218, 215, 205, 1);
 }
