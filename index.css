@@ -1,0 +1,90 @@
+body {
+    background-color: rgba(88, 129, 87, 1);
+    height: 100%;
+}
+
+.navigation_bar {
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    position: sticky;
+    align-items: center;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    margin: 0;
+}
+
+a {
+    color: #C8102E;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+p {
+    color: rgba(255, 255, 255, 1);
+    font-size: 11.9em;
+}
+
+button {
+    background-color: white;
+    width: 8em;
+    height: 2em;
+}
+
+button:hover {
+    background-color: aliceblue;
+    cursor: wait;
+}
+
+.cardContainer {
+    display: grid;
+    margin: 4em 0em 0em 0em;
+    height: auto;
+    width: 100%;
+    justify-content: center;
+}
+
+.card {
+    aspect-ratio: 5/7;
+    background-color: rgba(58, 90, 64, 1);
+    width: 16em;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 6px 4px 5px rgba(218, 215, 205, 1);
+}
+
+.showHiddenText {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.showHiddenText span {
+    color: rgba(218, 215, 205, 1);
+    font-size: 1.5em;
+}
+
+.hidden {
+    display: none;
+}
+
+.showHiddenText:hover + .hidden {
+    display: flex;
+    cursor: pointer;
+    font-size: 1.7em;
+    color: rgba(218, 215, 205, 1);
+    font-weight: bolder;
+    justify-content: center;
+}
+
+.cardPhoto {
+    height: 20em;
+    width: 16em;
+
+}
+
+.card1 + span {
+    font-size: 1em;
+    color: rgba(218, 215, 205, 1);
+}
