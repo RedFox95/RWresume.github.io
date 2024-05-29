@@ -1,0 +1,19 @@
+.progressBar {
+    background-color: black;
+    height: 20px;
+    width: 25%;
+    display: block;
+    margin: 20px 0px 0px 0px;
+}
+
+a {
+    color: #C8102E;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+button {
+    background-color: white;
+    width: 8em;
+    height: 2em;
+}
