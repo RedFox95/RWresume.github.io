@@ -14,6 +14,7 @@ body {
     top: 0;
     left: 0;
     margin: 0;
+    background-color: darkseagreen;
 }
 
 a {
@@ -49,7 +50,7 @@ button:hover {
 .showHiddenText {
     display: flex;
     justify-content: center;
-    margin: 0px;
+    margin: 20px;
 }
 
 .showHiddenText span {
@@ -118,4 +119,28 @@ button:hover {
     background-color: rgba(163, 177, 138, 1);
     color: white;
     transform: rotateY(180deg);
+}
+
+#starPhoto {
+    width: 350px;
+    height: 400px;
+    margin: 0px 0px 0px 0px;
+    justify-self: center;
+}
+
+.clickPhotoContainer {
+    display: grid;
+    justify-content: center;
+}
+
+.clickPhotoContainer, h1 {
+    color: black;
+    background: linear-gradient(90deg, red, orange, yellow, green, blue, purple);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+h1:hover {
+    color: transparent;
+    transition: 500ms ease;;
 }
