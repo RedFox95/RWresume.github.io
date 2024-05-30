@@ -8,6 +8,6 @@ myImage.onclick = () => {
         myH1.textContent = "You've been bamboozled!";
     } else {
         myImage.setAttribute("src", "assets/StarPortrait.jpeg");
-        myH1.setAttribute = "Click the dog for a fun surprise!";
+        myH1.textContent = "Click the dog for a fun surprise!";
     }
 };
